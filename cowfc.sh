@@ -37,15 +37,15 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # We will test internet connectivity using ping
-if ping -c 2 github.com >/dev/nul; then
-    echo "Internet is OK"
-elif ping -c 2 torproject.org >/dev/nul; then
-    echo "Internet is OK"
-else
-    echo "Internet Connection Test Failed!"
-    echo "If you want to bypass internet check use -s arg!"
-    exit 1
-fi
+#if ping -c 2 github.com >/dev/nul; then
+#    echo "Internet is OK"
+#elif ping -c 2 torproject.org >/dev/nul; then
+#    echo "Internet is OK"
+#else
+#    echo "Internet Connection Test Failed!"
+#    echo "If you want to bypass internet check use -s arg!"
+#    exit 1
+#fi
 
 # We'll assume the user is from an English locale
 if [ ! -f /var/www/.locale-done ]; then
