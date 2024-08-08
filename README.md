@@ -1,6 +1,9 @@
+My changes:
+i'm trying to get the script to work with erykk8's CoWFC-Docker at https://github.com/erykk8/CoWFC-docker
+for that i had to disable a couple verifications which cannot be used in a docker shell.
+
 CoWFC Installer
 ======
-
 This script installs the CoWFC front-end and back-end from https://github.com/EnergyCube/CoWFC
 
 ✅ Support Ubuntu 14.04 & 16.04 (& 16.04 AWS)
