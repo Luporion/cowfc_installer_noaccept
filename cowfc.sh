@@ -3,16 +3,7 @@ echo "########## !!!!! WARNING !!!!! ##########"
 echo "Recently, Wiimmfi has undergone some changes which makes it so that their servers are more secure from hackers."
 echo "Having said that, this means that the CoWFC fork will not be getting the security patch, as it is unclear how it is possible. For the time being, you accept that you run your own server with a chance that hackers will be able to execute code over the MKW network."
 echo "This might mean that hackers can in theory, brick consoles."
-#read -rp "Please type ACCEPT to accept the risk: "
-#if [ "$REPLY" != "ACCEPT" ]; then
-#    echo "Verification FAILED bro!"
-#    exit 2
-#fi
-#read -rp "Just in case you were trigger-happy, I'll need you to type ACCEPT.: "
-#if [ "$REPLY" != "ACCEPT" ]; then
-#    echo "Verification FAILED brah!"
-#    exit 2
-#fi
+
 # DWC Network Installer script by kyle95wm/beanjr/EnergyCube - re-written for CoWFC
 # Warn Raspberry Pi users - probably a better way of doing this
 if [ -d /home/pi/ ]; then
@@ -35,17 +26,6 @@ fi
 if [ "$(id -u)" != "0" ]; then
     exec sudo "$0" "$@"
 fi
-
-# We will test internet connectivity using ping
-#if ping -c 2 github.com >/dev/nul; then
-#    echo "Internet is OK"
-#elif ping -c 2 torproject.org >/dev/nul; then
-#    echo "Internet is OK"
-#else
-#    echo "Internet Connection Test Failed!"
-#    echo "If you want to bypass internet check use -s arg!"
-#    exit 1
-#fi
 
 # We'll assume the user is from an English locale
 if [ ! -f /var/www/.locale-done ]; then
