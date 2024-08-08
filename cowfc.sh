@@ -5,12 +5,12 @@ echo "Having said that, this means that the CoWFC fork will not be getting the s
 echo "This might mean that hackers can in theory, brick consoles."
 #read -rp "Please type ACCEPT to accept the risk: "
 #if [ "$REPLY" != "ACCEPT" ]; then
-#    echo "Verification FAILED!"
+#    echo "Verification FAILED bro!"
 #    exit 2
 #fi
 #read -rp "Just in case you were trigger-happy, I'll need you to type ACCEPT.: "
 #if [ "$REPLY" != "ACCEPT" ]; then
-#    echo "Verification FAILED!"
+#    echo "Verification FAILED brah!"
 #    exit 2
 #fi
 # DWC Network Installer script by kyle95wm/beanjr/EnergyCube - re-written for CoWFC
