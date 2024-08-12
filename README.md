@@ -1,6 +1,4 @@
-My changes:
-i'm trying to get the script to work with erykk8's CoWFC-Docker at https://github.com/erykk8/CoWFC-docker
-for that i had to disable a couple verifications which cannot be used in a docker shell.
+this is far from working
 
 CoWFC Installer
 ======
